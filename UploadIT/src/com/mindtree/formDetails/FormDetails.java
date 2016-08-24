@@ -22,6 +22,8 @@ import com.microsoft.azure.storage.blob.*;
 public class FormDetails extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
+	
+	//-- Update AccountName and AccountKey with your storage account name and storage account key
 	public static final String storageConnectionString = "DefaultEndpointsProtocol=http;" + "AccountName=m1034340sa;"
 			+ "AccountKey=witATLh1//OAGp3BavIlW8EmzQxA2csPQs5i86fnJQqwmNd0RCZoe1kSOyIKrA8xt6HOiFSdO6iKPOrUDKYxhw==";
 
@@ -30,6 +32,7 @@ public class FormDetails extends HttpServlet {
 		File file;
 		int maxFileSize = 5000 * 1024;
 		int maxMemSize = 5000 * 1024;
+		//-- Local path where the files will get uploaded first. Then files from the below directory will be uploaded to Azure
 		String filePath = "C:/Users/azure/Desktop/files_upload/";
 		File filebase = new File("" + filePath);
 

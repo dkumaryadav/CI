@@ -18,7 +18,7 @@ import com.microsoft.azure.storage.blob.ListBlobItem;
 public class ViewDetails extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	public static final String storageConnectionString = "DefaultEndpointsProtocol=http;" + "AccountName=m1034340sa;"
-			+ "AccountKey=GZ7dNzEgIMqONFSSljMA8SgIvY9vJoDL1tg1pTuK3pDpYhVr0VZLK4IsNgu8ZmTNe//nUyLx2W4d5gl4ryjDyg==";
+			+ "AccountKey=witATLh1//OAGp3BavIlW8EmzQxA2csPQs5i86fnJQqwmNd0RCZoe1kSOyIKrA8xt6HOiFSdO6iKPOrUDKYxhw==";
     	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     		try
     		{

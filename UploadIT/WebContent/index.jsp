@@ -73,18 +73,7 @@ function redirect(){
 	<br>
 	<hr>
 <jsp:forward page="/WEB-INF/hello.jsp" />
-	<center>
-		<h1>Welcome to possible</h1>
-		<form onsubmit="redirect()">
-			<br>
-			<br>
-			<br> <input id="fields" type="text" placeholder="MID" /> <br>
-			<br>
-			<input id="fields" type="password" placeholder="Password" /><br>
-			<br> 
-			<input type="submit" />
-		</form>
-	</center>
+	
 	<br>
 	<br>
 	<br>
