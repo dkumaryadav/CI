@@ -58,7 +58,7 @@ img {
 	<br>
 	<br>
 	<hr>
-	<img src="${pageContext.request.contextPath}/resources/download.png" />
+	<img src="${pageContext.request.contextPath}/resources/mainimage.png" />
 	<br>
 	<hr>
 	<center>

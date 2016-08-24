@@ -65,27 +65,9 @@ function redirect(){
 </script>
 </head>
 <body>
-	<br>
-	<br>
-	<br>
-	<hr>
-	<img src="${pageContext.request.contextPath}/resources/download.png" />
-	<br>
-	<hr>
+	
 <jsp:forward page="/WEB-INF/hello.jsp" />
 	
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<hr style="height: 5px">
 	 
 </body>
 </html>
