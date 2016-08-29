@@ -114,7 +114,7 @@ function listFiles(){
 		<a href="#">
 			<button id="upload" onclick="uploadingFiles()">Upload</button>
 		</a> <br>
-		<br> <a href="view"><button id="view">View</button></a> <br>
+		<!-- <br> <a href="view"><button id="view">View</button></a> <br> -->
 		<div id="0" />
 
 
