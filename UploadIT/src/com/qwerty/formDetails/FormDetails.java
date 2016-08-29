@@ -1,4 +1,4 @@
-package com.mindtree.formDetails;
+package com.qwerty.formDetails;
 
 import java.io.File;
 
@@ -6,7 +6,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.websocket.Session;
+
 
 import java.io.*;
 import java.util.*;

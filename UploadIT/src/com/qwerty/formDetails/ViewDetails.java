@@ -1,4 +1,4 @@
-package com.mindtree.formDetails;
+package com.qwerty.formDetails;
 
 import java.io.IOException;
 import java.io.PrintWriter;
