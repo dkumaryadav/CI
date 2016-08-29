@@ -100,7 +100,7 @@ function listFiles(){
 	<br>
 	<hr>
 	<center>
-		<h1>Welcome explorer !!</h1>
+		<h1>Welcome explorer</h1>
 
 		<br>
 		<br>
